@@ -30,7 +30,7 @@ class Pencere(QWidget):
             if not os.path.exists(newpath):  # bu kodlar  kalsör oluşturma kodudur.
                 os.makedirs(newpath)
 
-            self.setWindowIcon(QtGui.QIcon('E:/WorkSpaces/Python/furkan/icon.ico')) # İkon yeri
+            self.setWindowIcon(QtGui.QIcon('C:/Users/Desktop/icon.ico')) # İkon yerini belirleyin kendi konumunuza göre
             self.setWindowTitle("Güncel Haber Takip") #Programın başlığı
 
             url = "https://finans.haberler.com/haberler/"
